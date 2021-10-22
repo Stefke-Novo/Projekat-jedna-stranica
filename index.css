@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "DeJaVu Sans bold";
+    src: url('IQOS-Bold.otf');
+}
+@font-face {
+    font-family: "DeJaVu Sans light";
+    src: url('IQOS-Light.otf');
+}
+@font-face {
+    font-family: "DeJaVu Sans regular";
+    src: url('IQOS-Regular.otf');
+}
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    background-color: darkturquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Celija{
+    font-family: 'DeJaVu Sans regular',sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(52, 50, 65);
+    border: solid 3px white;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 170%;
+    width:47%;
+    display: flex;
+    align-items: center;
+    line-height: 117%;
+    height: 110%;
+}
+.Celija p{
+    width:100%;
+}
+#DIVN{
+    width:100%;
+}
+#Celina{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+#Levo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Desno{
+    height: 150px;
+}
+#Naslov{
+    font-family: 'DeJaVu Sans regular',sans-serif;
+    color:rgb(52, 50, 65) ;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+#Celije{
+    height: 200px;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Red{
+    display: flex;
+    height: 43%;
+    justify-content: space-between;
+}
+#Opis1{
+    font-family: 'DeJaVu Sans regular',sans-serif;
+    color: white;
+    font-size: 105%;
+    line-height: 110%;
+    width:100%;
+}
+#Opis2{
+    color: white;
+    font-family: 'DeJaVu Sans regular', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    width:100%;
+}
+#Opis3{
+    font-size: 110%;
+    color: rgb(52, 50, 65);
+    margin-bottom: 1.5%;
+    font-family: 'DeJaVu Sans regular' ,sans-serif;
+    align-items: center;
+}
+#Opis3 h2{
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+}
+@media only screen and (min-width: 0px) {
+    #Celije{width:100%}
+    #Celina{margin-top: 5%;
+    flex-direction: column;}
+    #Opis1{margin-top: 10%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Opis2{margin-top: 5%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Opis3{margin-top: 5%;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Desno{
+        align-self: center;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #Celije{width:80%}
+    #Celina{margin-top: 3%;}
+    #Opis1{margin-top: 0px;
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;}
+    #Opis2{
+        text-align: left;
+    margin-left: 0px;
+    width: 100%;}
+    #Opis3{margin-top: 2%;}
+}
+@media only screen and (min-width: 1200px) {
+    #Opis2{margin-top: 1%;}
+    #Celije{width:50%}
+    #Celina{flex-direction: row;}
+    #Desno{margin-top: 0px;}
+}
+img{
+    height: 100%;
+    width: 100%;
+}
